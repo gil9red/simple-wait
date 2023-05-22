@@ -10,15 +10,12 @@ name: Upload Python Package
 
 on:
   release:
-    types: [published]
+    types:
+      - published
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
-    environment:
-      name: pypi
-      url: https://pypi.org/p/simple-wait
 
     permissions:
       id-token: write
