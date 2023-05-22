@@ -9,7 +9,7 @@ from datetime import timedelta, datetime
 import io
 import unittest
 
-from simple_wait import str_timedelta, get_timeout_date, wait
+from src.simple_wait import str_timedelta, get_timeout_date, wait
 
 
 class TestCase(unittest.TestCase):

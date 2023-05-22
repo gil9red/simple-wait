@@ -1,2 +1,2 @@
-# simple_wait
+# simple-wait
 Simple wait
