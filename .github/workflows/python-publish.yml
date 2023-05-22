@@ -16,10 +16,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    environment:
+      name: pypi
+      url: https://pypi.org/p/simple-wait
+
     permissions:
-      # IMPORTANT: this permission is mandatory for trusted publishing
       id-token: write
-      contents: read
 
     steps:
     - uses: actions/checkout@v3
