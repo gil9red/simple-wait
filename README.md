@@ -1,7 +1,7 @@
 # simple-wait
 Simple wait
 
-```
+```python
 from datetime import datetime
 
 print("Start wait")
