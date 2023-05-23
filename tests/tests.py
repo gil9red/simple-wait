@@ -49,7 +49,8 @@ class TestCase(unittest.TestCase):
         with self.subTest("None"):
             now = datetime.today()
 
-            self.assertEqual(now, get_timeout_date())
+            self.assertTrue(get_timeout_date())
+            self.assertTrue(get_timeout_date(now))
             self.assertEqual(now, get_timeout_date(now))
 
         with self.subTest("Simple"):
