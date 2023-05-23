@@ -4,10 +4,10 @@
 __author__ = "ipetrash"
 
 
-from datetime import timedelta, datetime
-
 import io
 import unittest
+
+from datetime import timedelta, datetime
 
 from src.simple_wait import str_timedelta, get_timeout_date, wait
 
