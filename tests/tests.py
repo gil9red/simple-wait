@@ -76,9 +76,7 @@ class TestCase(unittest.TestCase):
 
         log.seek(0)
         lines = [
-            line.strip()
-            for line in log.readlines()
-            if "Time left to wait" in line
+            line.strip() for line in log.readlines() if "Time left to wait" in line
         ]
         self.assertTrue(lines)
         self.assertTrue(len(lines) > 1)
