@@ -1,6 +1,5 @@
 [project]
 name = "simple-wait"
-version = "1.0.1"
 authors = [
   { name="Ilya Petrash", email="ilya.petrash@inbox.ru" },
 ]
@@ -12,6 +11,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 keywords = ["wait"]
 
@@ -22,6 +22,9 @@ keywords = ["wait"]
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = { attr = "src.simple_wait.__version__" }
 
 [tool.setuptools.packages.find]
 where = ["src"]
