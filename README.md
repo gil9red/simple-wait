@@ -3,6 +3,7 @@ Simple wait
 
 ```python
 from datetime import datetime
+from simple_wait import wait
 
 print("Start wait")
 wait(seconds=5)
