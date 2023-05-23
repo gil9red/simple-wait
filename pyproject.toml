@@ -1,5 +1,6 @@
 [project]
 name = "simple-wait"
+dynamic = ["version"]
 authors = [
   { name="Ilya Petrash", email="ilya.petrash@inbox.ru" },
 ]
