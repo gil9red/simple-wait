@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 __author__ = "ipetrash"
-__version__ = "1.0.7"
+__version__ = "1.0.8"
 
 
 import sys
@@ -15,6 +15,11 @@ from typing import Iterable, Callable
 
 
 def str_timedelta(td: timedelta) -> str:
+    """
+    Returns a string description of the datetime.timedelta object
+
+    """
+
     td = str(td)
 
     # Remove ms
@@ -39,6 +44,11 @@ def get_timeout_date(
     hours: int = 0,
     weeks: int = 0,
 ) -> datetime:
+    """
+    Returns a new datetime.datetime object with the modified date
+
+    """
+
     if date is None:
         date = datetime.today()
 
@@ -69,6 +79,10 @@ def wait(
     log: TextIOWrapper = sys.stdout,
     is_need_stop: Callable[[], bool] = lambda: False,
 ):
+    """
+    The function calls the wait for the specified period.
+
+    """
     try:
         progress_bar = cycle(progress_bar)
 
