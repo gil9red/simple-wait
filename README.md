@@ -4,6 +4,7 @@ Simple wait
 [![tests](https://github.com/gil9red/simple-wait/actions/workflows/run-tests.yml/badge.svg)](https://github.com/gil9red/simple-wait/actions/workflows/run-tests.yml)
 [![upload to pypi](https://github.com/gil9red/simple-wait/actions/workflows/python-publish.yml/badge.svg)](https://github.com/gil9red/simple-wait/actions/workflows/python-publish.yml)
 [![pypi](https://img.shields.io/pypi/v/simple-wait.svg)](https://pypi.org/project/simple-wait/)
+[![Downloads](https://static.pepy.tech/badge/simple-wait)](https://pepy.tech/project/simple-wait)
 [![pypi python versions](https://img.shields.io/pypi/pyversions/simple-wait.svg)](https://pypi.org/project/simple-wait/)
 [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://pypi.org/project/black/)
 [![License](https://img.shields.io/badge/license-MIT-black.svg)](https://opensource.org/licenses/MIT)
